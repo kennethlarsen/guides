@@ -109,7 +109,7 @@ export default EmberObject.extend({
 
   calc() {
     this.incrementProperty('count');
-    let count = this.get('count');
+    let count = this.count;
 
     return `count: ${count}`;
   }
